@@ -1,0 +1,158 @@
+[gd_scene format=3 uid="uid://mf7g7jjtehgv"]
+
+[ext_resource type="Script" uid="uid://de8kcjr0tstqt" path="res://grid_container.gd" id="1_epypp"]
+[ext_resource type="Script" uid="uid://clqwghne1ohsx" path="res://color_rect.gd" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://nq05h4405qc7" path="res://icon.svg" id="2_0e48y"]
+[ext_resource type="Script" uid="uid://c5mii5q1uhvuy" path="res://sprite.gd" id="4_0hol4"]
+[ext_resource type="Script" uid="uid://d2adme3i017kj" path="res://lines.gd" id="5_q6r6c"]
+
+[node name="Node2D" type="Node2D" unique_id=1128671770]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=813861286]
+
+[node name="GridContainer" type="GridContainer" parent="Camera2D" unique_id=1164883911]
+unique_name_in_owner = true
+offset_left = -410.0
+offset_top = -409.0
+offset_right = 402.0
+offset_bottom = 403.0
+columns = 4
+script = ExtResource("1_epypp")
+
+[node name="ColorRect" type="ColorRect" parent="Camera2D/GridContainer" unique_id=1926949207]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Camera2D/GridContainer" unique_id=546797600]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="Camera2D/GridContainer" unique_id=471289637]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="Camera2D/GridContainer" unique_id=198531650]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="Camera2D/GridContainer" unique_id=154752555]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="Camera2D/GridContainer" unique_id=1228059678]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect7" type="ColorRect" parent="Camera2D/GridContainer" unique_id=1235545283]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect8" type="ColorRect" parent="Camera2D/GridContainer" unique_id=171606298]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect9" type="ColorRect" parent="Camera2D/GridContainer" unique_id=1886522067]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect10" type="ColorRect" parent="Camera2D/GridContainer" unique_id=1003742848]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect11" type="ColorRect" parent="Camera2D/GridContainer" unique_id=246245427]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect12" type="ColorRect" parent="Camera2D/GridContainer" unique_id=540393171]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect13" type="ColorRect" parent="Camera2D/GridContainer" unique_id=2046336262]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect14" type="ColorRect" parent="Camera2D/GridContainer" unique_id=1098026143]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect15" type="ColorRect" parent="Camera2D/GridContainer" unique_id=2094144496]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="ColorRect16" type="ColorRect" parent="Camera2D/GridContainer" unique_id=876444739]
+custom_minimum_size = Vector2(200, 200)
+layout_mode = 2
+color = Color(1, 1, 0.3372549, 1)
+script = ExtResource("1_wtcfe")
+color_highlighted = Color(1, 0.85490197, 0.1254902, 1)
+
+[node name="Sprite" type="Sprite2D" parent="Camera2D" unique_id=901408993]
+unique_name_in_owner = true
+position = Vector2(-410, -409)
+texture = ExtResource("2_0e48y")
+script = ExtResource("4_0hol4")
+
+[node name="Lines" type="Node2D" parent="Camera2D" unique_id=819029839]
+script = ExtResource("5_q6r6c")
+
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect" to="Camera2D/GridContainer/ColorRect" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect2" to="Camera2D/GridContainer/ColorRect2" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect3" to="Camera2D/GridContainer/ColorRect3" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect4" to="Camera2D/GridContainer/ColorRect4" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect5" to="Camera2D/GridContainer/ColorRect5" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect6" to="Camera2D/GridContainer/ColorRect6" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect7" to="Camera2D/GridContainer/ColorRect7" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect8" to="Camera2D/GridContainer/ColorRect8" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect9" to="Camera2D/GridContainer/ColorRect9" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect10" to="Camera2D/GridContainer/ColorRect10" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect11" to="Camera2D/GridContainer/ColorRect11" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect12" to="Camera2D/GridContainer/ColorRect12" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect13" to="Camera2D/GridContainer/ColorRect13" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect14" to="Camera2D/GridContainer/ColorRect14" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect15" to="Camera2D/GridContainer/ColorRect15" method="_on_mouse_exited"]
+[connection signal="mouse_exited" from="Camera2D/GridContainer/ColorRect16" to="Camera2D/GridContainer/ColorRect16" method="_on_mouse_exited"]
